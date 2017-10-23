@@ -1,11 +1,12 @@
 <template>
-    <ol>
+  <ol>
     <slot name="item-idx"
-        v-for="(item, index) in items"
-        :item="item" :index="index">
-        <!-- fallback content here -->
+      v-for="(item, index) in items"
+      :item="item" 
+      :index="index">
+      <!-- fallback content here -->
     </slot>
-    </ol>
+  </ol>
 </template>
 <script>
 export default {
