@@ -1,7 +1,7 @@
 <template>
   <div class="hello">
     <h1>{{ msg }}</h1>
-    <list-with-scoped-slot></list-with-scoped-slot>
+    <ScopedSlotListUsage></ScopedSlotListUsage>
     <h2>Essential Links</h2>
     <ul>
       <li><a href="https://vuejs.org" target="_blank">Core Docs</a></li>
@@ -22,7 +22,7 @@
 </template>
 
 <script>
-import ListWithScopedSlot from './ScopedSlotParent'
+import ScopedSlotListUsage from './ScopedSlotListUsage'
 
 export default {
   name: 'HelloWorld',
@@ -32,7 +32,7 @@ export default {
     }
   },
   components: {
-    ListWithScopedSlot
+    ScopedSlotListUsage
   }
 }
 </script>
